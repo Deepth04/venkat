@@ -1,0 +1,144 @@
+/* .div1 .div2:hover{
+    transform: translateY(90px);
+    transition: 600ms;
+}
+.div1 img{
+    position: relative;
+    position: cover;
+    width: 100%;
+    max-height:100;
+}
+.div2{
+    border: 1px solid black;
+    width: 380px;
+    height: 360px;
+    position: absolute;
+    left:50%;
+    top:30%;
+    background: #565050;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.div2 h3{
+    padding-left: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    
+}
+.div2 input{
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 90%;
+}
+.div2 button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #FEFEFE;
+    background-color: #5BE0E9;
+    border-radius: 5px;
+    margin-left: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+ */
+ /* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height:550px;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+

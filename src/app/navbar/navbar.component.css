@@ -1,0 +1,10 @@
+a:hover{
+  color: red;
+}
+ div ul li{
+  font-size: 20px;
+} 
+nav{
+  height: fixed;
+  background-color: rgb(246, 226, 110);
+}
